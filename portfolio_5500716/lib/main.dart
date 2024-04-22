@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
               const Text(
                   "Willst du keine Pause machen"
               ),
-            if (_counter > 1000)
+            if (_counter > 10000)
               const Text(
                   "gib auf"
               ),
