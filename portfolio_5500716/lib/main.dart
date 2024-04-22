@@ -13,25 +13,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // TRY THIS: Try running your application with "flutter run". You'll see
-        // the application has a purple toolbar. Then, without quitting the app,
-        // try changing the seedColor in the colorScheme below to Colors.green
-        // and then invoke "hot reload" (save your changes or press the "hot
-        // reload" button in a Flutter-supported IDE, or press "r" if you used
-        // the command line to start the app).
-        //
-        // Notice that the counter didn't reset back to zero; the application
-        // state is not lost during the reload. To reset the state, use hot
-        // restart instead.
-        //
-        // This works for code too, not just values: Most code changes can be
-        // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Flutter Counter'),
     );
   }
 }
@@ -91,11 +76,33 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+
+            if (_counter > 10)
+               const Text(
+                "Weiter soo!!!"
+              ),
+
+            if (_counter > -5)
+               const Text(
+                  "Bitte nicht weiter runter gehen"
+              ),
+            if (_counter > 100)
+              const Text(
+                  "Willst du keine Pause machen"
+              ),
+            if (_counter > 1000)
+              const Text(
+                  "gib auf"
+              ),
+
+
           ],
         ),
       ),
 
       floatingActionButton: Row(
+        crossAxisAlignment: CrossAxisAlignment.end,
+
 children: [
     FloatingActionButton.large(
         onPressed: _incrementCounterMin,
@@ -103,12 +110,15 @@ children: [
         child: const Icon(Icons.remove),
       ),
 
+  Expanded(child: Container()),
+
   FloatingActionButton.large(
     onPressed: _incrementCounterDiv,
     tooltip: 'Dividieren',
     child: const Icon(Icons.call_made_rounded),
   ),
 
+  Expanded(child: Container()),
 
   FloatingActionButton.large(
     onPressed: _incrementCounterMax,
@@ -116,6 +126,7 @@ children: [
     child: const Icon(Icons.dangerous_outlined),
   ),
 
+  Expanded(child: Container()),
 
   FloatingActionButton.large(
     onPressed: _incrementCounter,
