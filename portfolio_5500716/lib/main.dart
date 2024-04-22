@@ -79,10 +79,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
             if (_counter > 10)
                const Text(
-                "Weiter soo!!!"
+                "Weiter soo!!!",
               ),
 
-            if (_counter > -5)
+            if (_counter < -5)
                const Text(
                   "Bitte nicht weiter runter gehen"
               ),
