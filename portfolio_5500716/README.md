@@ -4,7 +4,7 @@ Willkommen zu meinem Flutter-Projekt! Diese Anwendung ist eine [kurze Beschreibu
 
 ## Inhaltsverzeichnis
 1. Hier befinden sich all meine [Projekte](./lib)
-2. Um dieses Projekt lokal auszuführen oder die erforderlichen Abhängigkeiten zu installieren, folge den Anweisungen in dieser [README-Datei](./portfolio_5500716/README.md).
+2. Um dieses Projekt lokal auszuführen oder die erforderlichen Abhängigkeiten zu installieren, folge den Anweisungen in dieser [README-Datei](./README.md).
 
 
 
