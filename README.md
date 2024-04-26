@@ -1,9 +1,11 @@
 # Portfolio-Projekt
 
 ## Über mich
-Vorname / Nachname: Stylianos Papadimitriou
+1. Vorname / Nachname:
+   - Stylianos Papadimitriou
 
-Meine Email: stylianospapadimitriou@yahoo.com
+2. Meine Email:
+   - stylianospapadimitriou@yahoo.com
 
 
 Dies ist das Portfolio-Projekt. 
