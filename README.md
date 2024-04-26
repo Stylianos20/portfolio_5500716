@@ -1,5 +1,9 @@
 # Portfolio-Projekt
 
+# Über mich
+Meine Email: stylianospapadimitriou@yahoo.com
+Vorname / Nachname: Stylianos Papadimitriou
+
 Dies ist das Portfolio-Projekt. 
 Hier befinden sich meine Flutter/Dart Projekte.
 So klonst du das Repository auf deinen Computer:
