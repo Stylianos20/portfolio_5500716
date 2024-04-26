@@ -1,6 +1,8 @@
 # Portfolio-Projekt
 
-Dies ist das Portfolio-Projekt. So klonst du das Repository auf deinen Computer:
+Dies ist das Portfolio-Projekt. 
+Hier befinden sich meine Flutter/Dart Projekte.
+So klonst du das Repository auf deinen Computer:
 
 ## Voraussetzungen
 - Stelle sicher, dass [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installiert ist. Prüfe mit `git --version`.
