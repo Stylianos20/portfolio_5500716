@@ -101,7 +101,8 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
 
       floatingActionButton: Row(
-        crossAxisAlignment: CrossAxisAlignment.end,
+       mainAxisAlignment: MainAxisAlignment.end,
+      crossAxisAlignment: CrossAxisAlignment.end,
 
 children: [
     FloatingActionButton.large(
@@ -136,7 +137,9 @@ children: [
 
     ],// This trailing comma makes auto-formatting nicer for build methods.
     ),
+
     );
+
 
   }
 }
