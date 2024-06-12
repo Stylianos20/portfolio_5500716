@@ -41,5 +41,4 @@ Um die App auszuführen, müssen Sie sicherstellen, dass Sie Flutter auf Ihrem E
 - Flutter SDK installiert (siehe [Flutter Installationsanleitung](https://flutter.dev/docs/get-started/install))
 - Ein Emulator oder ein angeschlossenes Gerät
 
-### Projektstruktur
 
